@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headlinkleft {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+}
+
+.headlinkright {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+}
+
+#textlink {
+    padding-top: 15px;
+}
+
+.headlinkleft:hover {
+    text-decoration: underline;
+}
+
+.headlinkright:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    padding: 180px 0 40px 0px;
+    max-width: 400px;
+}
+
+.search {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input { 
+    margin-bottom: 30px;
+    height: 30px;
+    width: 450px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-color: rgb(43, 43, 43);
+}
+
+button {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    font-size: 15px;
+}
